@@ -1,0 +1,71 @@
+/* App.css */
+
+.container-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.counter-container {
+    margin-top: 20px;
+}
+
+.counter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.counter-item span {
+    margin: 0 10px;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: white;
+}
+
+.mode-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.mode-button {
+    width: 100%;
+}
